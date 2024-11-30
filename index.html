@@ -9,13 +9,16 @@
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
+
+
+
 <body>
    <header>
     <div class="container">
         <!-- top header -->
         <div class="top_header">
             <a href="#" class="logo">
-                <img src="img/logo.png" alt="" srcset="">
+                <img src="img/black_hyper_logo.png" alt="" srcset="">
             </a>
 
             
@@ -38,12 +41,12 @@
 
             <div class="header_icons">
                 <div class="icon">
-                    <i class="fa fa-shopping-cart"></i>
-                    <span class="cart_items_counter">0</span>
-                </div>
-                <div class="icon">
                     <i class="fa fa-heart"></i>
                     <span class="wishlist_items_counter">0</span>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span class="cart_items_counter">0</span>
                 </div>
             </div>
         </div>
@@ -95,6 +98,32 @@
          <!-- bottom header -->
 
    </header>   
+
+   <!-- cart -->
+    <div class="cart">
+
+        <div class="card_top">
+            <h3>Cart Items: (0)</h3>
+            <i class="fa-regular fa-circle-xmark"></i>
+        </div>
+
+        <div class="items_in_cart">
+           <!-- get cart from javascrip main.js file -->
+        </div>
+
+        <div class="card_bottom">
+            <div class="items_total_price">
+                <p>Subtotal :</p>
+                <span class="total_price">$0</span>
+            </div>
+
+            <div class="checkout_or_shop_btns">
+                <button class="check_out_btn btn">Check out</button>
+                <button class="shop_more_btn btn">Shop More</button>
+            </div>
+        </div>
+    </div>
+   <!-- cart -->
    
    <!-- slider_banner -->
    <div class="slider_banner">
@@ -213,9 +242,188 @@
     </div>
 </section>
 <!-- product slider -->
+
+ <!-- banner -->
+  <section id="banner">
+    <div class="container">
+        <div class="banners">
+            <div class="banner_img">
+                <img src="img/banner_box1.jpg" alt="">
+            </div>
+            <div class="banner_img">
+                <img src="img/banner_box2.jpg" alt="">
+            </div>
+        </div>
+    </div>
+  </section>
+ <!-- banner -->
+
+
+<!-- product (Electronics) slider -->
+<section id="product_slider">
+    <div class="container">
+
+        <div class="product_header">
+      
+                <h3>  <i class="fa-solid fa-tags"></i> Electronics</h3>
+   
+        </div>
+                      <!-- Swiper -->
+  <div class="product myProducts">
+    <div class="swiper-wrapper swiper_electronics" >
+
+
+    </div>
+    <div class="swiper-button-next swipper_btn"></div>
+    <div class="swiper-button-prev swipper_btn"></div>
+  </div>
+    </div>
+</section>
+<!-- product (Electronics) slider -->
+
+<!-- banner 2-->
+<section id="banner">
+   <div class="container">
+       <div class="banners">
+           <div class="banner_img_2">
+               <img src="img/banner_box4.jpg" alt="">
+           </div>
+           <div class="banner_img_2">
+               <img src="img/banner_box5.jpg" alt="">
+           </div>
+           <div class="banner_img_2">
+               <img src="img/banner_box4.jpg" alt="">
+           </div>
+       </div>
+   </div>
+ </section>
+<!-- banner 2-->
+
+<!-- product (mobiles) slider -->
+<section id="product_slider">
+    <div class="container">
+
+        <div class="product_header">
+                <h3>  <i class="fa-solid fa-tags"></i> Mobiles</h3>
+        </div>
+                      <!-- Swiper -->
+  <div class="product myProducts">
+    <div class="swiper-wrapper swiper_mobiles" >
+
+
+    </div>
+    <div class="swiper-button-next swipper_btn"></div>
+    <div class="swiper-button-prev swipper_btn"></div>
+  </div>
+    </div>
+</section>
+<!-- product (mobiles) slider -->
+
+
+<footer>
+    <div class="container">
+        <div class="logo_social_icons">
+            <a href="#" class="footer_logo">
+                <img src="img/white_hyper_logo.png" alt="" srcset="">
+            </a>
+            <p>
+                Lorem ipsum dolor sit, 
+                amet consectetur adipisicing elit. Eius, adipisci.
+            </p>
+            <div class="social_links">
+                <a href="#">
+                    <i class="fa fa-solid fa-phone"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="row">
+            <h3>Find it Fast</h3>
+            
+            <a href="#">
+                <span class="fa fa-caret-right"></span>
+                <p>latptops & computers</p>
+            </a>
+            <a href="#">
+                <span class="fa fa-caret-right"></span>
+                <p>tablets & smartphones</p>
+            </a>
+            <a href="#">
+                <span class="fa fa-caret-right"></span>
+                <p>appliances & audio</p>
+            </a>
+            <a href="#">
+                <span class="fa fa-caret-right"></span>
+                <p>jewellery & accessories</p>
+            </a>
+            
+        </div>
+        <div class="row">
+            <h3>Find it Fast</h3>
+
+            <a href="#">
+                <span class="fa fa-caret-right"></span>
+                <p>latptops & computers</p>
+            </a>
+            <a href="#">
+                <span class="fa fa-caret-right"></span>
+                <p>tablets & smartphones</p>
+            </a>
+            <a href="#">
+                <span class="fa fa-caret-right"></span>
+                <p>appliances & audio</p>
+            </a>
+            <a href="#">
+                <span class="fa fa-caret-right"></span>
+                <p>jewellery & accessories</p>
+            </a>
+        </div>
+        <div class="row">
+            <h3>Find it Fast</h3>
+
+            <a href="#">
+                <span class="fa fa-caret-right"></span>
+                <p>latptops & computers</p>
+            </a>
+            <a href="#">
+                <span class="fa fa-caret-right"></span>
+                <p>tablets & smartphones</p>
+            </a>
+            <a href="#">
+                <span class="fa fa-caret-right"></span>
+                <p>appliances & audio</p>
+            </a>
+            <a href="#">
+                <span class="fa fa-caret-right"></span>
+                <p>jewellery & accessories</p>
+            </a>
+
+        </div>
+    </div>
+    <div class="bottom_footer">
+        <div class="container">
+            <p>All Rights Reserved to <span>MOKHAIRY</span> &copy; 2024</p>
+            <div class="payment_img">
+                <img src="img/payment_method.png" alt="">
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 <!-- Swiper JS -->
+
+<script src="get_products.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="script.js"></script>
-<script src="get_products.js"></script>
+<script src="main.js"></script>
 </html>
+
